@@ -58,6 +58,9 @@
     "class": {
       "spec": false
     },
+    "build": {
+      "preserveSymlinks": true
+    },
     "component": {
       "inlineStyle": true,
       "inlineTemplate": true,

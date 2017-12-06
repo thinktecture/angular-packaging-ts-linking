@@ -3,6 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
+    <core-sample></core-sample>
+    
     <!--The content below is only a placeholder and can be replaced.-->
     <div style="text-align:center">
       <h1>
