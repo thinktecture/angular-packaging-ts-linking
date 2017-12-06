@@ -10,6 +10,8 @@ You can use this method of developing Angular packages either within a mono repo
 Using the latter it's important, that they are cloned side-by-side, since the company app is going to reference the core package via file system. 
 More on that later.
 
+Also take a look at this [blog post](https://manuel-rauber.com/2017/12/07/packaging-angular-libraries/) for more thoughts about other methods for creating/developing Angular packages.
+
 ## Changes
 
 The first three commits of this repository are important.
