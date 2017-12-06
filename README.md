@@ -102,7 +102,7 @@ For example:
 > a linked dir is not just another folder with more generated code (which would be covered by an outFiles glob pattern). Instead it is a location which is seen by the node runtime with a different path than by VS Code
 - [Andre Weinland](https://github.com/Microsoft/vscode-node-debug/issues/73#issuecomment-248415990) 
 
-## Summary
+### Summary
 
 That's it! 
 With those very little changes, WebStorm is able to resolve and auto-import all the stuff.
@@ -110,3 +110,11 @@ Unfortunately, I was not able to get VSCode's IntelliSense running correctly.
 You may can add `node_modules/@company` to the `tsconfig.json`'s `typeRoots` to get the IntelliSense working, but the auto import goes horribly wrong.
 This issue _may_ get fixed with VSCode 1.19. 
 If there is another trick. please let me know. :-)
+
+## Setup
+
+If you want to get this demo to run, clone it at first and just use `npm install` in both folders. 
+After that, if you run `npm start` within the core folder, the playground starts, where you would normally develop your package independently.
+If you run `npm start` within the company folder, the app starts.
+It will automatically live-reload, even if you do a change within the core folder.
+Awesome for development! :-)
